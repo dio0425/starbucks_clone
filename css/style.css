@@ -37,6 +37,7 @@ header .logo {
 }
 
 header .sub-menu {
+  display: flex;
 }
 
 header .sub-menu .menu {
@@ -74,10 +75,34 @@ header .sub-menu .menu li a:hover {
 }
 
 header .sub-menu .search {
+  height: 34px;
+  position: relative;
 }
 
 header .sub-menu .search input {
+  width: 36px;
+  height: 34px;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #777;
+  font-size: 12px;
+  transition: width 0.4s;
+}
+
+header .sub-menu .search input:focus {
+  width: 190px;
+  border-color: #669900;
 }
 
 header .sub-menu .search .material-icons {
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
 }
