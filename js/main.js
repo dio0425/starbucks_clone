@@ -21,7 +21,9 @@ window.addEventListener('scroll', _.throttle(function(){
     console.log(window.scrollY);
     if(window.scrollY > 500) {
         // 배지 숨기기
-        badgeEl.style.display = 'none';
+        gsap.to(badgeEl, 0.6, {
+            opactiy: 0
+        });
     } else {
         // 배지 보이기
         badgeEl.style.display = 'block';
