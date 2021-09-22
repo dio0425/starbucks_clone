@@ -283,16 +283,18 @@ header .badges .badge {
 
 .visual .inner {
   height: 646px;
-  background-color: orange;
 }
 
 .visual .title {
   position: absolute;
   top: 88px;
-  left: -10px;
+  left: 100px;
 }
 
 .visual .title .btn {
+  position: absolute;
+  top: 259px;
+  left: 173px;
 }
 
 .visual .cup1.image {
