@@ -53,7 +53,6 @@ fadeEls.forEach(function (fadeEl, index) {
 // new Swiper(선택자, 옵션)
 new Swiper(".notice-line .swiper-container", {
   direction: "vertical", // 수직 정렬
-  slidesPerView: 1,
   autoplay: true, // 자동 재생
   loop: true, // 자동반복 재생
 });
